@@ -1,9 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size:10pt;
 }
 
 a {
@@ -35,4 +40,11 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+}
+
+.sectionHeader {
+  font-weight: bold;
+  font-size:12pt;
+  color:rgb(88, 88, 88);
+  margin-bottom:2rem;
 }
